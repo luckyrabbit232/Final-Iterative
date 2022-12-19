@@ -12,23 +12,20 @@ function App() {
       <div className = "Header">
         <div className = "UpperHeader">
           <div className = "Logo">
-            <b> My Portfolio</b>
+             My Portfolio
           </div>
           <div className = "Menu">
             <div className = "Menu_Child">
-              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/">
+              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/" className = "Hyperlink">
                 Home
               </a>
             </div>
             <div className = "Menu_Child2">
-              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/">
+              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/" className = "Hyperlink">
                 About Me
               </a>
             </div>
           </div>
-        </div>
-        <div className = "LowerHeader">
-          <i>Home/Iterative Redesign</i>
         </div>
       </div>
       <div className = "Introduction">
@@ -106,7 +103,7 @@ function App() {
           </div>
         </div>
         <div className = "Basic_TextBox">
-          <div className = "TextBox_Child">
+          <div className = "TextBoxGoal_Child">
             The technical goals of this assignment are as follows:
             <ul>
               <li>Analyze user goals in conjunction with the purpose of the firm</li>
