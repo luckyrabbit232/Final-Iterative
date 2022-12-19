@@ -151,10 +151,10 @@
 .TextBox_Child{
   display:flex;
   flex-direction: column;
-  font-size: 18 px;
+  font-size: 18px;
   text-align: left;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-top: 10px;
 }
 
@@ -256,11 +256,14 @@
   height: 200px;
   width: 200px;
   cursor: pointer;
+  transition: transform .2s;
+
 }
 
 .Portfolio_Image:hover{
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 .Hyperlink{
