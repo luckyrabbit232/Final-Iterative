@@ -4,16 +4,6 @@ import PortofolioBox from './components/PortfolioBox';
 import data from './assets/portfolio-data.json'
 import { useState } from 'react';
 
-// TODO:
-// 1: Create Header
-// 2: Create Button and image introduction
-// 3: Write Introduction
-// 4: Write Problem
-// 5: Write Goals
-// 6: Write Design
-// 7: Write reflection
-// 8: Do you may also like components
-
 function App() {
   const [displayPortofolio, setPortfolio] = useState(data);
 
@@ -75,7 +65,7 @@ function App() {
           </div>
         </div>
         <div className = "Basic_ImageContainer">
-          <img src = "./Images/startup.png" className = "Basic_Image2"></img>
+          <img src = "./Images/startup.png" className = "Basic_Image0"></img>
         </div>
       </div>
 
@@ -117,9 +107,7 @@ function App() {
         </div>
         <div className = "Basic_TextBox">
           <div className = "TextBox_Child">
-            <p>
             The technical goals of this assignment are as follows:
-            </p>
             <ul>
               <li>Analyze user goals in conjunction with the purpose of the firm</li>
               <li>Create Lo-Fi and Hi-Fi markups</li>
@@ -144,51 +132,50 @@ function App() {
         </div>
         <div className = "Basic_TextBox">
           <div className = "TextBox_Child">
-            <p>
-            Design Theory:
-            </p>
+            <b>Design Theory:</b>
             <p>
             We sought to create the user experience based on a female who has breast 
             cancer. From this, we utilized colours that were more subtle and welcoming (pink). 
             We also made buttons clear and visble for better affordances.
             </p>
-            <div className = "indentation"></div>
-            <p>
-            Lo-Fi:
-            </p>
+            </div>
+            <div className = "TextBox_Child">
+            <b>Lo-Fi:</b>
             <p>
             We created Lo-Fi sketches on paper based on our idea of the startup. Then, we merged 
             our designs together in the Balsamiq.
             </p>
+            </div>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Lofi.png" className = "Basic_Image1"></img>
             </div>
-            <div className = "indentation"></div>
-            <p>Hi-Fi:</p>
+            <div className = "TextBox_Child">
+            <b>Hi-Fi:</b>
             <p>
             We then finalized our Lo-Fi prototype by then using Figma to create our Hi-Fi prototype. 
             We created a style guide for users to know what assets were utilized.
             </p>
+            </div>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Design.png" className = "Basic_Image1"></img>
             </div>
-            <div className = "indentation"></div>
-            <p>Incorporating User Feedback:</p>
+            <div className = "TextBox_Child">
+            <b>Incorporating User Feedback:</b>
             <p>In one of our group sessions at Brown, we got to give user feedback to others, 
               while recieving user feedback from others too. Below are the user feedback we recieved, 
               and what we did to implement the feedback.</p>
-              <div className = "Basic_ImageContainer">
+            </div>
+            <div className = "Basic_ImageContainer">
               <img src = "./Images/Feedback.png" className = "Basic_Image1"></img>
             </div>
-            <div className = "indentation"></div>
-            <p>Using UI Testing Software:</p>
+            <div className = "TextBox_Child">
+            <b>Using UI Testing Software:</b>
             <p>After revising our Hi-Fi mockup, we then deployed it onto a professional user testing website. 
               The responses for this website are outlined below.</p>
+            </div>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Response.png" className = "Basic_Image2"></img>
             </div>
-            <div className = "indentation"></div>          
-          </div>
         </div>
       </div>
 
@@ -212,13 +199,11 @@ function App() {
             I also particularly learned about recieving feedback and criticism, then incorporating such 
             feedback into our work.
             </p>
-            <div className = "indentation"></div>
             <p>
             There was not much to amend in my journey in designing this website. The only thing to do next is 
             to incorporate the professional feedback, then incorporate the feedback into the Figma design. 
             Hopefully, I will be able to create this website on React in the future!
             </p>
-            <div className = "indentation"></div>
 
           </div>
         </div>
@@ -228,7 +213,7 @@ function App() {
         <div className = "Other_ProjectsTitle">
           <div className = "Other_ProjectsTitle">
             <div className = "OtherProjectsTitle_Text">
-            You May Also Like...
+            <i>You May Also Like...</i>
             </div>
           </div>
         </div>
